@@ -1,0 +1,13 @@
+
+Interface:
+Vehicle Interface: This interface represents a contract for all vehicles in your car hire company. It could have the following methods:
+getRegistrationNumber(): This method returns the vehicle’s registration number. Every vehicle has a unique registration number, so this method is essential for identifying vehicles.
+getMakeAndModel(): This method returns the vehicle’s make and model. This information is important for customers who prefer certain brands or models.
+getRentalPricePerDay(): This method returns the rental price per day for the vehicle. This is crucial for calculating the cost of a booking.
+isAvailableForHire(): This method checks if the vehicle is currently available for hire. This helps to ensure that only available vehicles are shown to customers.
+setHireStatus(boolean status): This method sets the hire status of the vehicle. This is used to mark a vehicle as hired or available.
+
+For A Grade:
+System actor Use case:
+Database
+Generate Booking History: The system generates a booking history for each customer, which can be used for future reference.
